@@ -1,2 +1,2 @@
 # Design-Pattern
-A comprehensive study repository dedicated to exploring and implementing Design Patterns.
+디자인 패턴의 실전 학습과 구현 사례를 다루는 저장소입니다.
