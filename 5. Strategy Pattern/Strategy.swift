@@ -1,20 +1,25 @@
-protocol Fly {
-    func fly()
+protocol Strategy {
+    func compare<T: Comparable>(data1: T, data2: T) -> T
 }
 
-struct Eagle : Fly {
-    func fly() {
-        print("Eagle Flies")
+class Bigger: Strategy {
+    init() {}
+
+    func compare<T: Comparable>(data1: T, data2: T) -> T {
+        return data1 > data2 ? data1 : data2
     }
 }
 
-struct Pigeon : Fly {
-    func fly() {
-        print("Pigeon Flies")
+class Smaller: Strategy {
+    init() {}
+
+    func compare<T: Comparable>(data1: T, data2: T) -> T {
+        return data1 < data2 ? data1 : data2
     }
 }
 
-var bird: Fly = Eagle() // Fly 프로토콜을 따르는 객체의 인스턴스를 할당할 수 있다.
-bird.fly()
-bird = Pigeon()
-bird.fly()
+var compare: Strategy
+compare = Bigger()
+print(compare.compare(data1: 30, data2: 100))
+compare = Smaller()
+print(compare.compare(data1: 30, data2: 100))
