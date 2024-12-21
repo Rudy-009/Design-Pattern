@@ -1,10 +1,17 @@
 # Observer Pattern
 > 객체간 1:N 의존 관계를 정의하고 한 객체 상태가 변경될 경우, 그 객체와 의존 관계에 있는 모든 객체들이 자동으로 알림을 받고 상태를 갱신
-- Subject(Publisher) + Observer(Subscriber) = 옵저버 패턴
 
 ## vs Poling 
 - Push : 이벤트가 발생하면 알려줌
 - Polling : 이벤트가 발생했는지 지속적으로 확인 (비효율적)
+
+## 구성 요소
+- Subject(Publisher) Interface : 값 혹은 Object의 변화가 일어났을 때, 등록된 Observer에게 알림을 전달하는 역할
+    - regist(obs: Observer) : Observer를 등록
+    - remove(obs: Observer) : Observer를 삭제
+    - nofity(obj: Object) or () :  등록된 Observer들의 update() 호출을 통해 값혹은 Object의 변화를 알려줌
+- Observer(Subscriber) Interface : 값의 변화를 기다리는 객체
+    - update(obj: Object) or () : 변화가 일어났으면, Observer 내에서 어떤 동작을 하면 좋을지 구현
 
 ## Lose Coupling
 - 두 객체가 느슨하게 결합되어 있다는 것은, 그 둘이 상호작용을 하긴 하지만 서로에 대해 잘 모른다는 것을 의미함
