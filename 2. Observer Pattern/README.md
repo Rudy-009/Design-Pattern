@@ -22,7 +22,7 @@
 > *Subject Interface* 에서 notifyObservers() Observer에 단순히 값이 변경되었다는 점만 알려주는 경우
 ![](./Observer_Pattern_Case02.png)
 
-### with JAVA
+### in JAVA
 - Subject (Publisher)
 ```java
 interface Subject {
@@ -34,5 +34,29 @@ interface Subject {
 ```java
 interface Observer {
 	public void update(Object arg); // Depend on notify method's parameter
+}
+```
+
+## in Swift
+UIKit에서 뷰 업데이트 때 사용한 방법이다.
+"ButtonPressed" 라는 key와 이벤트를 등록하면, 이 key에 해당하는 Observer들은 알림을 받고 지정한 동작을 수행한다.
+
+전송자 코드
+
+```swift
+NotificationCenter.default.post(name: NSNotification.Name("ButtonPressed"), object: nil)
+```
+
+구독자 코드
+
+```swift
+NotificationCenter.default.addObserver(self, selector: #selector(dataUpdated), name: NSNotification.Name("ButtonPressed"), object: nil)
+```
+
+TableView에서 위임한 경우
+
+```swift
+@objc func dataUpdated() {
+    self.tableView.reloadData()
 }
 ```
