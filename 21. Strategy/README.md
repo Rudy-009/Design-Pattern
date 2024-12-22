@@ -1,5 +1,4 @@
 # Strategy Pattern
-
 > 알고리즘을 사용하는 클라이언트로 부터 독립적으로 알고리즘을 바꿔서 적용시킬 수 있도록함.
 
 ## Clean Architecture

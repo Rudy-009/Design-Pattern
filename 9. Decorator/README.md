@@ -9,8 +9,8 @@
 - Decorator : 자신이 장식할 구성요소와 같은 인터페이스 또는 추상 클래스 역할을 함 (Interface, Abstract Class로 주로 구현, Class도 가능)
 
 - ConcreteDecorator : 그 객체가 장식하고 있는 것(데코레이터가 감싸고 있는 Component 객체)을 위한 인스턴스 변수가 있음
-``` java
-private Component component
+```
+private component : Component
 ```
 
 ## JAVA 예시 InputStream
