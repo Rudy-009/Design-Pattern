@@ -11,3 +11,6 @@ abstract createProduct() : Product
 - ConcreteFactory < C > : ConcreteProduct를 반환하는 createProduct() 함수를 구현
 
 ![](Factory.png)
+
+## in Swift
+swift에는 abstract 라는 개념이 존재하지 않는다.

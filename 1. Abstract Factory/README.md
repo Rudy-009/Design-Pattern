@@ -3,7 +3,7 @@
 
 ## 구성요소
 - AbstractProduct A...Z < AC >: 다양한 형태의 제품
-- AbstractFactory < I > : 모든 제품군을 생성하는 추상 메서드가 있음
+- AbstractFactory < I > : 각 제품군을 생성하는 추상 메서드가 있음
 ```
 abstract createProduct A...Z() : Product A...Z
 ```
