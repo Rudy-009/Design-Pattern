@@ -1,7 +1,7 @@
 import Foundation
 
 class ThreadSafeSingleton {
-    static let shared = ThreadSafeSingleton()
+    static let shared = ThreadSafeSingleton() // thread-safe 초기화
     private init() {}
 
     // Concurrent queue for thread-safe property access

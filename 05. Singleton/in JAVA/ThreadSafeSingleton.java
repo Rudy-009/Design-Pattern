@@ -1,3 +1,7 @@
+// Java 구현 예제
+
+// Classical Singleton with Lazy Initialization
+
 public class ThreadSafeSingleton {
 
     private volatile static ThreadSafeSingleton inst;
