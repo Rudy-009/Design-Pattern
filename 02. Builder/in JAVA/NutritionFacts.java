@@ -44,4 +44,15 @@ public class NutritionFacts {
         sodium = builder.sodium;
         carbohydrate = builder.carbohydrate;
     }
+
+    public void print() {
+        System.out.println(
+            "servingSize: " + servingSize +
+            "\nservings: " + servings +
+            "\ncalories" + calories +
+            "\nfat: " + fat + 
+            "\nsodium: " + sodium + 
+            "\ncarbohydrate: " + carbohydrate
+        );
+    }
 }
