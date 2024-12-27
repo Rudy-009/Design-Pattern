@@ -30,7 +30,7 @@
 19. 옵서버 (Observer) ✅
 20. 스테이트 (State) ✅
 21. 스트래티지 (Strategy) ✅
-22. 템플릿 메소드 (Template Method) 
+22. 템플릿 메소드 (Template Method) ✅
 23. 비지터 (Visitor)
 
 ## iOS와 관련한 패턴
