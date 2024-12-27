@@ -45,7 +45,7 @@ class LineIterator<T> implements Iterator<T> {
     }
 
     public boolean hasNext() {
-        return (index > 0);
+        return (index  < line.size() - 1 >);
     }
     
 	public T next() {
