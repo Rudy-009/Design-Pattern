@@ -3,35 +3,44 @@
 
 ## 1. 생성 패턴(Creation Patterns)
 > 객체의 생성 과정과 연관된 패턴
-1. 추상 팩토리 (Abstract Factory) ✅
-2. 빌더 (Builder) ✅
-3. 팩토리 메소드 (Factory Method) ✅
-4. 프로토타입 (Prototype)
-5. 싱글턴 (Singleton) ✅
+
+|Name|README|LEVEL|Language|
+|---|-----|---|--------|
+|01. Abstract Factory    |✅ |⭐️⭐️      |JAVA|
+|02. Builder             |✅ |⭐️        |JAVA, Swift|
+|03. Factory Method      |✅ |⭐️⭐️      |Swift       |
+|04. Prototype           |   |         |           |
+|05. Singleton           |✅ |⭐️⭐️(⭐️)  |JAVA, Swift|
 
 ## 2. 구조 패턴 (Structural Patterns)
 > 클래스나 객체의 합성/집약에 관련된 패턴
-6. 어댑터 (Adapter) ✅
-7. 브리지 (Bridge)
-8. 컴포지트 (Composite) ✅
-9. 데코레이터 (Decorator) ✅
-10. 퍼사드 (Façade) ✅
-11. 플라이웨이트 (Flyweight)
-12. 프록시 (Proxy) ✅
+
+|Name|README|LEVEL|Language|
+|-------|-|---|--------|
+|06. Adapter    |✅|⭐️⭐️    | Swift|
+|07. Bridge     |  |       |       |
+|08. Composite  |✅|⭐️⭐️    |Swift |
+|09. Decorator  |✅|⭐️⭐️    |JAVA|
+|10. Façade     |✅|⭐️      |Swift|
+|11. Flyweight  | |        |       |
+|12. Proxy      |✅|⭐️⭐️    |JAVA|
 
 ## 3. 행위 패턴(Behavioral Patterns)
 > 클래스나 객체들이 상호작용하는 방법과 책임을 분산시키는 방법을 정의하는 패턴
-13. 책임 연쇄 (Chain of Responsibility)
-14. 커맨드 (Command) ✅
-15. 인터프리터 (Interpreter)
-16. 반복자 (Iterator) ✅
-17. 미디에이터 (Mediator)
-18. 메멘토 (Memento) 
-19. 옵서버 (Observer) ✅
-20. 스테이트 (State) ✅
-21. 스트래티지 (Strategy) ✅
-22. 템플릿 메소드 (Template Method) ✅
-23. 비지터 (Visitor)
+
+|Name|README|LEVEL|Language|
+|---|-----|---|--------|
+|13. Chain of Responsibility||||
+|14. Command                |✅ |⭐️⭐️   |JAVA|
+|15. Interpreter            |   |       ||
+|16. Iterator               |✅ |⭐️⭐️   |JAVA|
+|17. Mediator               |   |       ||
+|18. Memento                |   |       ||
+|19. Observer               |✅ |⭐️⭐️   |JAVA|
+|20. State                  |✅ |⭐️⭐️⭐️ |JAVA|
+|21. Strategy               |✅ |⭐️     |Swift|
+|22. Template Method        |✅ |⭐️     |JAVA|
+|23. Visitor                |   |       ||
 
 ## iOS와 관련한 패턴
 1. MVC
