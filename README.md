@@ -7,10 +7,10 @@
 |Name|README|LEVEL|Language|
 |------|:-----:|---|--------|
 |01. Abstract Factory    |✅ |⭐️⭐️      |JAVA|
-|02. Builder             |✅ |⭐️        |JAVA, Swift|
+|02. Builder             |✅ |⭐️        |Swift, JAVA|
 |03. Factory Method      |✅ |⭐️⭐️      |Swift       |
-|04. Prototype           |   |         |           |
-|05. Singleton           |✅ |⭐️⭐️(⭐️)  |JAVA, Swift|
+|04. Prototype           |✅ |⭐️        |Swift, JAVA|
+|05. Singleton           |✅ |⭐️⭐️(⭐️)  |Swift, JAVA|
 
 ## 2. 구조 패턴 (Structural Patterns)
 > 클래스나 객체의 합성/집약에 관련된 패턴
