@@ -28,7 +28,7 @@
 17. 미디에이터 (Mediator)
 18. 메멘토 (Memento) 
 19. 옵서버 (Observer) ✅
-20. 스테이트 (State) 
+20. 스테이트 (State) ✅
 21. 스트래티지 (Strategy) ✅
 22. 템플릿 메소드 (Template Method) 
 23. 비지터 (Visitor)
