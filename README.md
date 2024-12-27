@@ -5,7 +5,7 @@
 > 객체의 생성 과정과 연관된 패턴
 
 |Name|README|LEVEL|Language|
-|---|-----|---|--------|
+|------|:-----:|---|--------|
 |01. Abstract Factory    |✅ |⭐️⭐️      |JAVA|
 |02. Builder             |✅ |⭐️        |JAVA, Swift|
 |03. Factory Method      |✅ |⭐️⭐️      |Swift       |
@@ -16,7 +16,7 @@
 > 클래스나 객체의 합성/집약에 관련된 패턴
 
 |Name|README|LEVEL|Language|
-|-------|-|---|--------|
+|-------|:-----:|---|--------|
 |06. Adapter    |✅|⭐️⭐️    | Swift|
 |07. Bridge     |  |       |       |
 |08. Composite  |✅|⭐️⭐️    |Swift |
@@ -29,7 +29,7 @@
 > 클래스나 객체들이 상호작용하는 방법과 책임을 분산시키는 방법을 정의하는 패턴
 
 |Name|README|LEVEL|Language|
-|---|-----|---|--------|
+|---|:-----:|---|--------|
 |13. Chain of Responsibility||||
 |14. Command                |✅ |⭐️⭐️   |JAVA|
 |15. Interpreter            |   |       ||
