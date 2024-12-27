@@ -11,8 +11,10 @@ public class Stereo {
 	}
 	
 	public void on(){
-		System.out.println(name + ", Stereo On" + isOn);
-		this.isOn = true;
+		System.out.println(name + ", Stereo On");
+		if (!this.isOn) {
+			isOn = true;
+		}
 	}
 	
 	public void off() {
