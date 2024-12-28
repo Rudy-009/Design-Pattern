@@ -18,11 +18,11 @@
 |Name|README|LEVEL|Language|
 |-------|:-----:|---|--------|
 |06. Adapter    |✅|⭐️    | Swift|
-|07. Bridge     |  |       |       |
-|08. Composite  |✅|⭐️⭐️    |Swift |
-|09. Decorator  |✅|⭐️⭐️    |JAVA|
-|10. Façade     |✅|⭐️      |Swift|
-|11. Flyweight  | |        |       |
+|07. Bridge     |✅|⭐️    |Swift|
+|08. Composite  |✅|⭐️⭐️   |Swift|
+|09. Decorator  |✅|⭐️⭐️   |JAVA|
+|10. Façade     |✅|⭐️     |Swift|
+|11. Flyweight  | |       ||
 |12. Proxy      |✅|⭐️⭐️    |JAVA|
 
 ## 3. 행위 패턴(Behavioral Patterns)
