@@ -17,7 +17,7 @@
 
 |Name|README|LEVEL|Language|
 |-------|:-----:|---|--------|
-|06. Adapter    |✅|⭐️⭐️    | Swift|
+|06. Adapter    |✅|⭐️    | Swift|
 |07. Bridge     |  |       |       |
 |08. Composite  |✅|⭐️⭐️    |Swift |
 |09. Decorator  |✅|⭐️⭐️    |JAVA|
