@@ -30,7 +30,7 @@
 
 |Name|README|LEVEL|Language|
 |---|:-----:|---|--------|
-|13. Chain of Responsibility|✅|⭐️⭐️||
+|13. Chain of Responsibility|✅|⭐️⭐️|Swift|
 |14. Command                |✅|⭐️⭐️   |JAVA|
 |15. Interpreter            |  |       ||
 |16. Iterator               |✅|⭐️⭐️   |JAVA|
