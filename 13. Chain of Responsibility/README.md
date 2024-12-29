@@ -19,4 +19,4 @@ hain of Responsibility 패턴은 검증 조건을 개별 핸들러로 분리하�
 - `ConcreteHandler < C >` : 
     - 특정 요청을 처리하거나, 처리하지 못할 경우 다음 핸들러로 전달한다.
 
-![](ChainOfResponsibility.png)
+![](CoR.png)
