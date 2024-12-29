@@ -32,7 +32,7 @@
 |---|:-----:|---|--------|---|
 |13. Chain of Responsibility|✅|⭐️⭐️||Swift|
 |14. Command                |✅|⭐️⭐️   |🔥|JAVA|
-|~~15. Interpreter~~        |  |⭐️⭐️⭐️ |||
+|~~15. Interpreter~~        |❌|⭐️⭐️⭐️ |||
 |16. Iterator               |✅|⭐️⭐️   |🔥|JAVA|
 |17. Mediator               |✅|⭐️     |||
 |18. Memento                |  |       |||

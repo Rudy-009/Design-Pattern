@@ -15,8 +15,10 @@
 ## 구성 요소
 - Mediator < I >: 객체 간의 통신을 조정하는 인터페이스를 정의한다. 
     - notify(sender: Component, event: String)
-- ConcreteMediator < C >: Mediator 인터페이스를 구현하며, 객체 간의 상호작용을 실제로 조정한다.
-- Component < C >: Mediator와 협력하는 기본 구성 요소. Mediator와 연결되어 있으며, 이벤트를 발생시킬 때 Mediator에 알린다.
-- ConcreteComponent < C >: Component를 구체적으로 구현한 클래스들. Mediator를 통해 다른 구성 요소와 상호작용한다.
+- ConcreteMediator < C >: 
+    - Mediator 인터페이스를 구현하며, 객체 간의 상호작용을 실제로 조정한다.
+- Component < C >: Mediator와 협력하는 기본 구성 요소. 
+    - Mediator와 연결되어 있으며, 이벤트를 발생시킬 때 Mediator에 알린다.
+- ConcreteComponent < C >
 
 ![](Mediator.png)
