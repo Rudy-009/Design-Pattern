@@ -4,8 +4,8 @@
 ## 1. 생성 패턴(Creation Patterns)
 > 객체의 생성 과정과 연관된 패턴
 
-|Name|README|LEVEL|Language|
-|------|:-----:|---|--------|
+|Name|README|LEVEL|Language|Popularity|
+|------|:-----:|---|--------|---|
 |01. Abstract Factory    |✅ |⭐️⭐️      |JAVA|
 |02. Builder             |✅ |⭐️        |Swift, JAVA|
 |03. Factory Method      |✅ |⭐️⭐️      |Swift       |
@@ -15,8 +15,8 @@
 ## 2. 구조 패턴 (Structural Patterns)
 > 클래스나 객체의 합성/집약에 관련된 패턴
 
-|Name|README|LEVEL|Language|
-|-------|:-----:|---|--------|
+|Name|README|LEVEL|Language|Popularity|
+|-------|:-----:|---|--------|---|
 |06. Adapter    |✅|⭐️    | Swift|
 |07. Bridge     |✅|⭐️    |Swift|
 |08. Composite  |✅|⭐️⭐️   |Swift|
@@ -28,8 +28,8 @@
 ## 3. 행위 패턴(Behavioral Patterns)
 > 클래스나 객체들이 상호작용하는 방법과 책임을 분산시키는 방법을 정의하는 패턴
 
-|Name|README|LEVEL|Language|
-|---|:-----:|---|--------|
+|Name|README|LEVEL|Language|Popularity|
+|---|:-----:|---|--------|---|
 |13. Chain of Responsibility|✅|⭐️⭐️|Swift|
 |14. Command                |✅|⭐️⭐️   |JAVA|
 |~~15. Interpreter~~        |  |⭐️⭐️⭐️ ||
