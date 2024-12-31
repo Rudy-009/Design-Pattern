@@ -20,7 +20,7 @@
 |06. Adapter    |✅|⭐️    || Swift|
 |07. Bridge     |✅|⭐️    ||Swift|
 |08. Composite  |✅|⭐️⭐️   ||Swift|
-|09. Decorator  |✅|⭐️⭐️    ||JAVA|
+|09. Decorator  |✅|⭐️⭐️    |🔥|JAVA|
 |10. Façade     |✅|⭐️      |🔥|Swift|
 |11. Flyweight  |✅|⭐️⭐️⭐️  |||
 |12. Proxy      |✅|⭐️⭐️    ||JAVA|
