@@ -35,12 +35,12 @@
 |~~15. Interpreter~~        |❌|⭐️⭐️⭐️ |||
 |16. Iterator               |✅|⭐️⭐️   |🔥|JAVA|
 |17. Mediator               |✅|⭐️     |||
-|18. Memento                |  |       |||
+|18. Memento                |✅|⭐️⭐️   |||
 |19. Observer               |✅|⭐️⭐️   |🔥|JAVA|
 |20. State                  |✅|⭐️⭐️⭐️ ||JAVA|
 |21. Strategy               |✅|⭐️     |🔥|Swift|
 |22. Template Method        |✅|⭐️     ||JAVA|
-|23. Visitor                |  |      |||
+|23. Visitor                |✅|⭐️⭐️   |||
 
 ## iOS와 관련한 패턴
 1. MVC
