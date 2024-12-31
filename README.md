@@ -41,11 +41,3 @@
 |21. Strategy               |✅|⭐️     |🔥|Swift|
 |22. Template Method        |✅|⭐️     ||JAVA|
 |23. Visitor                |✅|⭐️⭐️   |||
-
-## iOS와 관련한 패턴
-1. MVC
-2. MVP
-3. MVVM
-4. MVI 
-5. Viper
-6. RiBs Router
