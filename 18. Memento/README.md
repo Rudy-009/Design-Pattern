@@ -13,6 +13,8 @@
     - Memento 객체를 관리하며, Originator의 상태를 저장하거나 복원할 때 이를 사용.
     - Originator의 내부 구조에 대해 알지 못하며, 단순히 Memento를 저장하고 전달하는 역할만 수행.
 
+![](Memento.png)
+
 ## 장점
 - 객체의 이전 상태로 손쉽게 복원 가능. (Undo/Redo)
 - Originator의 내부 구조가 외부에 노출되지 않음(캡슐화 유지).
